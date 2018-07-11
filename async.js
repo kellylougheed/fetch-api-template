@@ -5,12 +5,12 @@
 function sendApiRequest() {
   let promise = fetch("https://api.giphy.com/v1/gifs/search?api_key=YOUR_API_KEY_GOES_HERE&q=Ryan+Gosling&limit=25&offset=0&rating=G&lang=en");
   console.log(promise);
-};
+}
 
 // querySelect the wrapper, and add an image tag to it. Interpolate the URL string from the previous function.
 function addImageToScreen(myURL) {
 
-};
+}
 
 // Playtime challenges:
 // Find something / someone else (rewrite the endpoint so that we aren't searching for Ryan Gosling)

@@ -3,8 +3,8 @@
 
 // Go to https://developers.giphy.com/ and create an account. Then create your first app called testApp to create an API key. Enter it below.
 function sendApiRequest() {
-  let promise = fetch("https://api.giphy.com/v1/gifs/search?api_key=YOUR_API_KEY_GOES_HERE&q=Ryan+Gosling&limit=25&offset=0&rating=G&lang=en");
-  console.log(promise);
+  let response = fetch("https://api.giphy.com/v1/gifs/search?api_key=bUcqXpfbxgQvjT33mQ7ZPfhWhpaKODLA&q=Ryan+Gosling&limit=25&offset=0&rating=G&lang=en");
+  console.log(response);
 }
 
 // querySelect the wrapper, and add an image tag to it. Interpolate the URL string from the previous function.
